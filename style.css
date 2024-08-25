@@ -172,7 +172,18 @@ header>.banner button:hover {
     font-weight: 800;
 }
 
+main {
+    background-color: black;
+    height: 3000px;
+}
 
+main>#section-1 {
+    max-width: 77%;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    background-color: bisque;
+}
 
 
 
