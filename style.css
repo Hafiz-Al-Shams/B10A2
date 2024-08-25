@@ -223,8 +223,10 @@ header>.banner button:hover {
     }
 
     header>.banner button {
-        padding: 10px 14px;
-        margin-right: 6px;
+        padding: 8px 10px;
+        margin-right: 4px;
+        font-size: 11px;
+        font-weight: 400;
     }
 
     .banner img {
@@ -250,7 +252,7 @@ header>.banner button:hover {
 
     .banner .card-2 {
         left: -6px;
-        bottom: 220px;
+        bottom: 160px;
         padding: 14px 19px;
     }
 
