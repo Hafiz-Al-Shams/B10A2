@@ -198,15 +198,15 @@ header>.banner {
     font-weight: 800;
 }
 
-/* Change Habits section styles */
+/* main section style starts */
 main {
     background-color: black;
     height: 3000px;
 }
 
+/* Change Habits section styles */
 main>#section-1 {
     padding-top: 77px;
-    /* padding-bottom: 50px; */
 }
 
 #section-1>#img-container1 {
@@ -229,6 +229,84 @@ main>#section-1 {
     border: 4px solid rgba(255, 255, 255, 0.1);
     border-radius: 100%;
 }
+
+/* Extra Mile section styles */
+main>#section-2 {
+    margin-top: 100px;
+    border-radius: 17px;
+    background: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    padding: 20px 0px 20px 60px;
+}
+
+#section-2>.section2-left>h2 {
+    text-align: left;
+}
+
+#section-2>.section2-left>p {
+    text-align: left;
+    padding-top: 6px;
+    padding-bottom: 30px;
+    line-height: 22px;
+}
+
+#section-2>.section2-left>button:hover {
+    cursor: pointer;
+    border: 0;
+}
+
+#section-2 #img-type2 {
+    width: 90%;
+    border: 20px solid rgb(34, 34, 34);
+    border-radius: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -343,5 +421,32 @@ main>#section-1 {
 
     .heading-type2 {
         padding-top: 3px;
+    }
+
+    main>#section-2 {
+        flex-direction: column;
+        margin-top: 40px;
+        gap: 6px;
+        padding: 24px 6px 10px 6px;
+    }
+
+    #section-2>.section2-left>h2 {
+        padding-left: 30px;
+    }
+
+    #section-2>.section2-left>p {
+        padding-bottom: 20px;
+        line-height: 19px;
+    }
+
+    #section-2>.section2-left>button {
+        margin-left: 30px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    #section-2 #img-type2 {
+        width: 100%;
+        border-radius: 35px;
     }
 }
