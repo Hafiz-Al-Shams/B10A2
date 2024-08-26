@@ -26,6 +26,13 @@
     padding-top: 12px;
 }
 
+.heading-type3 {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 700;
+    padding-bottom: 8px;
+}
+
 .paragraph-type1 {
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
@@ -36,11 +43,11 @@
 .button-type1 {
     background: rgb(230, 83, 60);
     color: rgb(255, 255, 255);
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
     border: 0;
     border-radius: 42px;
-    padding: 13px 30px;
+    padding: 15px 60px;
 }
 
 /* header styles */
@@ -264,15 +271,114 @@ main>#section-2 {
     border-radius: 40px;
 }
 
+/* BMI Calculator section styles */
+main>#section-3 {
+    margin: 85px 0px 85px;
+}
 
+main>#section-3>.section3-titles {
+    max-width: 50%;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
 
+#section-3>.section3-titles>h2,
+#section-3>.section3-titles>p {
+    text-align: left;
+}
 
+#section-3>.section3-content {
+    background: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 56px 170px 37px;
+}
 
+#section-3>.section3-content #calc-p {
+    text-align: left;
+    line-height: 22px;
+    padding-bottom: 30px;
+}
 
+.section3-content #table-container {
+    margin-top: 40px;
+}
 
+table {
+    border-collapse: collapse;
+}
 
+th {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
 
+td {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 300;
+    text-align: left;
+}
 
+td,
+th {
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    padding: 16px 24px;
+}
+
+#BMI-form>input {
+    font-size: 15px;
+    text-align: left;
+    border-radius: 7px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 0;
+    padding: 14px 40px 14px 19px;
+    margin-right: 10px;
+    margin-bottom: 16px;
+}
+
+#BMI-form>input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+#BMI-form>.select-1 {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 15px;
+    text-align: left;
+    border-radius: 7px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 0;
+    padding: 13px 186px 14px 17px;
+    margin-bottom: 16px;
+}
+
+#BMI-form>.select-2 {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 15px;
+    text-align: left;
+    border-radius: 7px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 0;
+    padding: 14px 322px 15px 17px;
+}
+
+#BMI-form>#submit-btn {
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 500;
+    border: 0;
+    border-radius: 42px;
+    padding: 15px 60px;
+    margin-top: 30px;
+}
+
+#BMI-form>#submit-btn:hover {
+    cursor: pointer;
+}
 
 
 
@@ -400,7 +506,6 @@ main>#section-2 {
 
     main>#section-1 {
         padding-top: 24px;
-        /* padding-bottom: 50px; */
     }
 
     .heading-type1 {
@@ -441,12 +546,86 @@ main>#section-2 {
 
     #section-2>.section2-left>button {
         margin-left: 30px;
-        padding-left: 60px;
-        padding-right: 60px;
+        padding: 11px 50px;
+        font-size: 13px;
     }
 
     #section-2 #img-type2 {
         width: 100%;
         border-radius: 35px;
+    }
+
+    /* BMI Calculator section */
+    main>#section-3 {
+        margin: 37px 0px 37px;
+    }
+
+    main>#section-3>.section3-titles {
+        max-width: 90%;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+
+    #section-3>.section3-titles>h2 {
+        padding-left: 32px;
+    }
+
+    #section-3>.section3-content {
+        flex-direction: column;
+        padding: 24px 0px 24px 0px;
+        gap: 28px;
+    }
+
+    #section-3>.section3-content>#calculate-BMI {
+        max-width: 90%;
+    }
+
+    #calculate-BMI>h4 {
+        padding-left: 32px;
+    }
+
+    #section-3>.section3-content #calc-p {
+        line-height: 19px;
+        padding-bottom: 24px;
+    }
+
+    .section3-content #table-container {
+        margin-top: 10px;
+    }
+
+    th {
+        font-size: 14px;
+    }
+
+    td {
+        font-size: 12px;
+    }
+
+    td,
+    th {
+        padding: 14px;
+    }
+
+    #BMI-form {
+        padding-left: 37px;
+    }
+
+    #BMI-form>input {
+        padding: 14px 30px 14px 19px;
+    }
+
+    #BMI-form>.select-1 {
+        padding: 13px 176px 14px 17px;
+    }
+
+    #BMI-form>.select-2 {
+        padding: 14px 48px 15px 17px;
+    }
+
+    #BMI-form>#submit-btn {
+        margin-top: 22px;
+        margin-left: 0px;
+        font-size: 15px;
+        padding: 12px 45px;
     }
 }
