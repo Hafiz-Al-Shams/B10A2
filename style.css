@@ -380,7 +380,18 @@ th {
     cursor: pointer;
 }
 
+/* Meet Our Team section styles */
+main>#section-4 {
+    margin-bottom: 85px;
+}
 
+main>#section-4>#img-container2 {
+    border-radius: 17px;
+    background: rgba(255, 255, 255, 0.1);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 600px;
+}
 
 
 
