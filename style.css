@@ -45,6 +45,7 @@
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     font-weight: 400;
+    line-height: 22px;
     text-align: center;
 }
 
@@ -516,52 +517,123 @@ footer>p {
     margin-top: 22px;
 }
 
+/* Trainings and Exercises section styles */
+main>#section-5 {
+    padding-top: 85px;
+}
 
+#section-5>.section5-titles>h2,
+#section-5>.section5-titles>p {
+    text-align: left;
+}
 
+#img-container3 {
+    display: grid;
+    grid-template-columns: 23% 46% 31%;
+    margin-top: 50px;
+}
 
+#img-container3>#exercise-card1 {
+    background: rgba(6, 255, 210, 0.5);
+    background-image: url(./images/exercise1.jpg);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+#img-container3>#exercise-card1>h5 {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 800;
+    text-align: left;
+    padding: 150px 0px 24px 24px;
+}
 
+#img-container3>#exercise-card2 {
+    background: rgba(255, 0, 0, 0.3);
+    background-image: url(./images/exercise2.png);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+#img-container3>#exercise-card2>h5 {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    padding: 24px 0px 150px 24px;
+}
 
+#img-container3>#exercise-card3 {
+    background: rgba(0, 0, 0, 0.5);
+    background-image: url(./images/exercise3.png);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+#img-container3>#exercise-card3>h5 {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    padding: 150px 0px 24px 24px;
+}
 
+#img-container4 {
+    display: grid;
+    grid-template-columns: 38% 26% 36%;
+    /* margin-top: 50px; */
+}
 
+#img-container4>#exercise-card4 {
+    background: rgba(0, 0, 0, 0.5);
+    background-image: url(./images/exercise4.png);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+#img-container4>#exercise-card4>h5 {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    padding: 24px 0px 150px 210px;
+}
 
+#img-container4>#exercise-card5 {
+    background: rgba(66, 255, 0, 0.3);
+    background-image: url(./images/exercise5.jpg);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+#img-container4>#exercise-card5>h5 {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    padding: 150px 0px 24px 24px;
+}
 
+#img-container4>#exercise-card6 {
+    background: rgba(0, 71, 255, 0.3);
+    background-image: url(./images/exercise6.jpg);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#img-container4>#exercise-card6>h5 {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    padding: 150px 0px 24px 24px;
+}
 
 /* responsive media query */
 /* for small device */
@@ -820,5 +892,44 @@ footer>p {
     footer>p {
         font-size: 12px;
         margin-top: 22px;
+    }
+
+    /* Trainings and Exercises section styles */
+    main>#section-5 {
+        padding-top: 30px;
+    }
+
+    #section-5>.section5-titles>h2,
+    #section-5>.section5-titles>p {
+        text-align: center;
+    }
+
+    #img-container3 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 24px;
+    }
+
+    #img-container3>#exercise-card1>h5 {
+        padding: 100px 0px 24px 24px;
+    }
+
+    #img-container3>#exercise-card2>h5 {
+        padding: 80px 0px 44px 54px;
+    }
+
+    #img-container3>#exercise-card3>h5 {
+        padding: 75px 0px 24px 24px;
+    }
+
+    #img-container4 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #img-container4>#exercise-card4>h5,
+    #img-container4>#exercise-card5>h5,
+    #img-container4>#exercise-card6>h5 {
+        padding: 75px 0px 24px 24px;
     }
 }
