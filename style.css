@@ -33,11 +33,26 @@
     padding-bottom: 8px;
 }
 
+.heading-type4 {
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    font-weight: 700;
+    padding-bottom: 2px;
+    text-align: left;
+}
+
 .paragraph-type1 {
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     font-weight: 400;
     text-align: center;
+}
+
+.paragraph-type2 {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
 }
 
 .button-type1 {
@@ -208,7 +223,6 @@ header>.banner {
 /* main section style starts */
 main {
     background-color: black;
-    height: 3000px;
 }
 
 /* Change Habits section styles */
@@ -382,7 +396,8 @@ th {
 
 /* Meet Our Team section styles */
 main>#section-4 {
-    margin-bottom: 85px;
+    /* padding-bottom: 80px; */
+    padding-bottom: 95px;
 }
 
 main>#section-4>#img-container2 {
@@ -390,11 +405,54 @@ main>#section-4>#img-container2 {
     background: rgba(255, 255, 255, 0.1);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    height: 600px;
+    margin-top: 65px;
+    padding: 24px;
+    gap: 24px;
 }
 
+#img-container2>#team-img1 {
+    background-image: url(./images/trainer1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+#img-container2>#team-img2 {
+    background-image: url(./images/trainer2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+#img-container2>#team-img3 {
+    background-image: url(./images/trainer3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img-container2>#team-img4 {
+    background-image: url(./images/trainer4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img-container2>#team-img5 {
+    background-image: url(./images/trainer5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img-container2>#team-img6 {
+    background-image: url(./images/trainer6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img-container2>.img-card2 {
+    border-radius: 19px;
+    padding: 190px 0px 17px 19px;
+    background-color: rgba(55, 55, 55, 0.485);
+    background-blend-mode: overlay;
+    /* width: 100%; */
+}
 
 
 
@@ -638,5 +696,30 @@ main>#section-4>#img-container2 {
         margin-left: 0px;
         font-size: 15px;
         padding: 12px 45px;
+    }
+
+    /* Meet Our Team section styles */
+    main>#section-4 {
+        padding-bottom: 40px;
+    }
+
+    main>#section-4>#img-container2 {
+        border-radius: 14px;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 25px;
+        gap: 19px;
+    }
+
+    #img-container2>.img-card2 {
+        border-radius: 14px;
+        padding: 110px 0px 17px 19px;
+    }
+
+    .heading-type4 {
+        font-size: 17px;
+    }
+
+    .paragraph-type2 {
+        font-size: 12px;
     }
 }
