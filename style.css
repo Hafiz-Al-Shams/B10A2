@@ -396,8 +396,7 @@ th {
 
 /* Meet Our Team section styles */
 main>#section-4 {
-    /* padding-bottom: 80px; */
-    padding-bottom: 95px;
+    padding-bottom: 85px;
 }
 
 main>#section-4>#img-container2 {
@@ -451,13 +450,71 @@ main>#section-4>#img-container2 {
     padding: 190px 0px 17px 19px;
     background-color: rgba(55, 55, 55, 0.485);
     background-blend-mode: overlay;
-    /* width: 100%; */
 }
 
+/* footer styles */
+footer {
+    background: rgb(34, 34, 34);
+    padding: 60px 20px 30px;
+}
 
+footer>#footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
 
+footer>#footer-container>#part-1 {
+    padding-bottom: 62px;
+}
 
+footer>#footer-container h1 {
+    color: rgb(230, 83, 60);
+    font-size: 67px;
+    font-weight: 800;
+    text-align: left;
+    font-style: italic;
+    margin-bottom: 17px;
+}
 
+footer>#footer-container p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: left;
+}
+
+footer>#footer-container h4 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 28px;
+}
+
+footer>#footer-container h5 {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 19px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+footer>#footer-hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    max-width: 77%;
+    margin: 0 auto;
+}
+
+footer>p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 22px;
+}
 
 
 
@@ -721,5 +778,47 @@ main>#section-4>#img-container2 {
 
     .paragraph-type2 {
         font-size: 12px;
+    }
+
+    /* footer styles */
+    footer {
+        padding: 24px 10px;
+    }
+
+    footer>#footer-container {
+        flex-direction: column;
+        padding-bottom: 19px;
+        gap: 26px;
+    }
+
+    footer>#footer-container>#part-1 {
+        padding-bottom: 0px;
+    }
+
+    footer>#footer-container h1 {
+        font-size: 45px;
+        margin-bottom: 11px;
+        text-align: center;
+    }
+
+    footer>#footer-container p {
+        font-size: 13px;
+        line-height: 19px;
+        text-align: center;
+    }
+
+    footer>#footer-container h4 {
+        font-size: 25px;
+        margin-bottom: 16px;
+    }
+
+    footer>#footer-container h5 {
+        font-size: 16px;
+        margin-bottom: 9px;
+    }
+
+    footer>p {
+        font-size: 12px;
+        margin-top: 22px;
     }
 }
